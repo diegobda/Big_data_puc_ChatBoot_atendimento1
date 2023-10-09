@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot de agendamento médico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chatbot">
+      <h1>Chatbot de agendamento médico</h1>
+      <div class="mensagem">
+        <p>Olá, tudo bem? Para agendar uma consulta médica, precisamos de algumas informações.</p>
+      </div>
+      <form action="/agendamento" method="post">
+        <input type="text" name="nome" placeholder="Qual é o seu nome?">
+        <input type="text" name="plano_saude" placeholder="Qual é o seu plano de saúde?">
+        <input type="text" name="sintoma" placeholder="Qual é o seu problema?">
+        <input type="submit" value="Agendar consulta">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
